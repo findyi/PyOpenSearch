@@ -56,11 +56,6 @@ class ApiResponse(object):
 
 class OpenSearchClient(object):
 
-    # API_HOST = 'http://opensearch-cn-beijing.aliyuncs.com'
-    #
-    # ACCESS_KEY_ID = 'FAmlO9lMmtiEHhKm'
-    # ACCESS_KEY_SECRET = 'ad6LUeOYh4Un1JnPV2TBhjkPSf35OT'
-
     def __init__(self, api_host, access_key_id, access_key_secret):
         self.api_host = api_host
         self.access_key_id = access_key_id
